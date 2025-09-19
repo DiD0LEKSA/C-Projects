@@ -1,0 +1,14 @@
+Компіляція:
+[Main/readnumber/writeanswer]
+g++ main.cpp readnumber.cpp writeanswer.cpp -o program
+[Main/io]
+g++ main.cpp io.cpp -o main
+
+Запуск (у VS Code):
+./main
+
+Корисні методи:
+[Кирилиця]:
+#include "windows.h"
+SetConsoleCP(65001);   // ввід UTF-8
+SetConsoleOutputCP(65001); // вивід UTF-8
