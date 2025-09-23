@@ -1,6 +1,8 @@
 Компіляція:
+[Main]
+g++ main.cpp -o main
 [Main/readnumber/writeanswer]
-g++ main.cpp readnumber.cpp writeanswer.cpp -o program
+g++ main.cpp readnumber.cpp writeanswer.cpp -o main
 [Main/io]
 g++ main.cpp io.cpp -o main
 

@@ -3,7 +3,7 @@
 
 int readNumber()
 {
-    int number{};
+    int number;
     std::cout << "Введіть ціле число: ";
     std::cin >> number;
     return number;
