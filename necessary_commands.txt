@@ -14,3 +14,5 @@ g++ main.cpp io.cpp -o main
 #include "windows.h"
 SetConsoleCP(65001);   // ввід UTF-8
 SetConsoleOutputCP(65001); // вивід UTF-8
+
+поки хвсьо =)
